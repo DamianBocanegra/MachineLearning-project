@@ -150,9 +150,9 @@ public class Driver {
            for (int i = 0; i < suggestions.size() ; i++)
            {
         	   System.out.println(suggestions.get(i).getTitle());
-        	   System.out.println("Rated: " + suggestions.get(i).getRating());
-        	   System.out.print("Score: " + suggestions.get(i).getRanking() + "/5");
-        	   System.out.println("\n");
+        	   //System.out.println("Rated: " + suggestions.get(i).getRating());
+        	   //System.out.print("Score: " + suggestions.get(i).getRanking() + "/5");
+        	   //System.out.println("\n");
         	   
         	   if (i > 6)
         	    break;
@@ -161,9 +161,10 @@ public class Driver {
            }
            
            
-           
+           /*
            System.out.println("\n");
            System.out.println("Full list of Suggestions:");
+           
            
            for (int i = 0; i < suggestions.size() ; i++)
            {
@@ -174,7 +175,7 @@ public class Driver {
         	   System.out.println("\n");
         	   
            }
-
+          */
 
         }
         
